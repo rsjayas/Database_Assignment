@@ -208,6 +208,7 @@ public class Main {
             // Display wired headphones
             CRUDHelper.displayWiredHeadphones(productCollection);
 
+            // To drop the collection
             productCollection.drop();
         }
         catch(Exception ex) {
