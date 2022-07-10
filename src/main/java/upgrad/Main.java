@@ -209,7 +209,7 @@ public class Main {
             CRUDHelper.displayWiredHeadphones(productCollection);
 
             // To drop the collection
-            productCollection.drop();
+            //productCollection.drop();
         }
         catch(Exception ex) {
             System.out.println("Got Exception.");
